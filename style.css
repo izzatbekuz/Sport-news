@@ -1,0 +1,26 @@
+.cont {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.nav-wrappwer {
+  display: flex;
+  justify-content: space-between;
+  gap: 39px;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+input {
+  width: 100px;
+  height: 35px;
+  background: #B8C2CE;
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */

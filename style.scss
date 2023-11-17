@@ -1,0 +1,47 @@
+@import "./_veriabls";
+@import "./_mexinis";
+
+.cont {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.nav-wrappwer {
+    display: flex;
+    justify-content: space-between;
+    gap: 39px;
+    padding: 10px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+input {
+    width: 100px;
+    height: 35px;
+    background: #B8C2CE;
+    border-radius: 6px;
+}
+
+@media(max-Widht:900px) {
+    display: none;
+}
+
+.topScorer-wrapper-colum1 {
+    &>h1 {
+        background: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+        font-family: Sequel Sans;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 435;
+        line-height: 75px;
+        /* 93.75% */
+        text-transform: uppercase;
+    }
+}
